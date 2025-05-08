@@ -1,11 +1,5 @@
 import Swiper from 'swiper';
-import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
-import { observeSwiperAutoplay } from './observer.js';
-
-// Swiper.use([Autoplay]);
-
-const benefitsSwiperEl = document.querySelector('.benefits-swiper-container');
 
 let benefitsSwiper;
 
@@ -38,5 +32,3 @@ benefitsSwiper = new Swiper('.benefits-swiper-container', {
     },
   },
 });
-
-// observeSwiperAutoplay(benefitsSwiper, benefitsSwiperEl);
