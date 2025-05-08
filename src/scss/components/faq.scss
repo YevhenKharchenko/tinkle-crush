@@ -28,7 +28,6 @@
   background: #fff;
   display: flex;
   flex-direction: column;
-  gap: 12px;
   border: 2px solid #615cb4;
   border-radius: 20px;
   padding: 20px 24px;
@@ -71,7 +70,11 @@
   font-size: 20px;
   line-height: 1.2;
   color: #131d1c;
-  display: none;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
 
   @include media(desktop) {
     font-weight: 700;
@@ -81,8 +84,13 @@
 }
 
 .is-visible {
-  display: block;
+  margin-top: 12px;
+  max-height: 120px;
   opacity: 1;
+
+  @include media(desktop) {
+    max-height: 32px;
+  }
 }
 
 .faq-list-item.faq-open .faq-toggle-symbol {
