@@ -12,7 +12,7 @@
   padding-top: 32px;
 
   @include media(desktop) {
-    padding-top: 39px;
+    padding-top: 40px;
   }
 }
 
@@ -24,9 +24,6 @@
   @include media(desktop) {
     flex-direction: row;
   }
-}
-
-.about-img {
 }
 
 .about-text {
