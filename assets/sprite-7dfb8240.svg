@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-arrow-down" viewBox="0 0 32 32">
+      <path fill="#615cb4" d="M16 22.667 9.333 16h4v-5.333h5.333V16h4l-6.667 6.667zM6.667 4h18.667a2.668 2.668 0 0 1 2.667 2.667v18.667a2.668 2.668 0 0 1-2.667 2.667H6.667A2.668 2.668 0 0 1 4 25.334V6.667A2.668 2.668 0 0 1 6.667 4zm0 2.667v18.667h18.667V6.667H6.667z" style="fill:var(--color1, #615cb4)"/>
+    </symbol>
+    <symbol id="icon-arrow-up" viewBox="0 0 32 32">
+      <path fill="#615cb4" d="M16 9.333 9.333 16h4v5.333h5.333V16h4l-6.667-6.667zM6.667 28h18.667a2.668 2.668 0 0 0 2.667-2.667V6.666a2.668 2.668 0 0 0-2.667-2.667H6.667A2.668 2.668 0 0 0 4 6.666v18.667A2.668 2.668 0 0 0 6.667 28zm0-2.667V6.666h18.667v18.667H6.667z" style="fill:var(--color1, #615cb4)"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path fill="#fff" d="m25.333 8.547-1.88-1.88L16 14.12 8.547 6.667l-1.88 1.88L14.12 16l-7.453 7.453 1.88 1.88L16 17.88l7.453 7.453 1.88-1.88L17.88 16l7.453-7.453z" style="fill:var(--color2, #fff)"/>
+    </symbol>
+    <symbol id="icon-cross" viewBox="0 0 32 32">
+      <path fill="#eee7d7" d="M3.051 28.132z" style="fill:var(--color3, #eee7d7)"/>
+      <path fill="none" stroke="#242529" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.032" d="M3.051 28.132 29.744 4.553" style="stroke:var(--color4, #242529)"/>
+      <path fill="#eee7d7" d="M29.744 28.132z" style="fill:var(--color3, #eee7d7)"/>
+      <path fill="none" stroke="#242529" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.032" d="M29.744 28.132 3.051 4.553" style="stroke:var(--color4, #242529)"/>
+    </symbol>
+    <symbol id="icon-left-arrow" viewBox="0 0 32 32">
+      <path fill="#362d6e" d="M20.56 9.88 14.44 16l6.12 6.12L18.667 24l-8-8 8-8 1.893 1.88z" style="fill:var(--color5, #362d6e)"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path fill="#fff" d="M4 8h24v2.667H4V8zm0 6.667h24v2.667H4v-2.667zm0 6.666h24V24H4v-2.667z" style="fill:var(--color2, #fff)"/>
+    </symbol>
+    <symbol id="icon-right-arrow" viewBox="0 0 32 32">
+      <path fill="#362d6e" d="M11.44 22.12 17.56 16l-6.12-6.12L13.333 8l8 8-8 8-1.893-1.88z" style="fill:var(--color5, #362d6e)"/>
+    </symbol>
+  </defs>
+</svg>
