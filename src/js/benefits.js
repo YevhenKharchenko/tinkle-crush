@@ -3,7 +3,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import { observeSwiperAutoplay } from './observer.js';
 
-Swiper.use([Autoplay]);
+// Swiper.use([Autoplay]);
 
 const benefitsSwiperEl = document.querySelector('.benefits-swiper-container');
 
@@ -11,11 +11,11 @@ let benefitsSwiper;
 
 benefitsSwiper = new Swiper('.benefits-swiper-container', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
-  spaceBetween: 40,
+  spaceBetween: 24,
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
@@ -26,8 +26,8 @@ benefitsSwiper = new Swiper('.benefits-swiper-container', {
   breakpoints: {
     1440: {
       loop: false,
-      initialSlide: 2,
-      slidesPerView: 5,
+      initialSlide: 0,
+      slidesPerView: 4,
     },
   },
   on: {
@@ -39,4 +39,4 @@ benefitsSwiper = new Swiper('.benefits-swiper-container', {
   },
 });
 
-observeSwiperAutoplay(benefitsSwiper, benefitsSwiperEl);
+// observeSwiperAutoplay(benefitsSwiper, benefitsSwiperEl);
